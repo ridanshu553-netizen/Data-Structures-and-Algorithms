@@ -47,4 +47,5 @@ int main() {
     ll.push_front(2);
     ll.push_front(1);
     ll.print();
+    return 0;
 }
