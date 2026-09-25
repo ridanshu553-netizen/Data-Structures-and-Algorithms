@@ -70,6 +70,7 @@ public:
         }
         if(!iscycle){
             cout<<"Cycle is Not Detected:\n";
+            return;
         }
 
         slow=head;
