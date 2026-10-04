@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
+
 template<class T>
+
 class Node{
 public:
     T data;
@@ -10,6 +12,7 @@ public:
         next=NULL;
     }
 };
+
 template<class T>
 class Stack{
     Node<T>* head;
@@ -40,6 +43,7 @@ public:
         return head==NULL;
     }
 };
+
 int main(){
     Stack<int> s;
 
@@ -54,4 +58,5 @@ int main(){
         cout<<s.Top()<<" ";
         s.pop();
     }
+    
 }
